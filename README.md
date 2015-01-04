@@ -6,9 +6,9 @@ Model of the locomotor CPG of lamprey. Serial and parallel simulations using GEN
 
 This is the model associated with the paper:
 
-Kozlov A, Kardamakis A, Hellgren Kotaleski J, Grillner S (2014) Gating
-of steering signals through phasic modulation of reticulospinal neurons
-during locomotion. PNAS 111 (9):3591-3596, doi: 10.1073/pnas.1401459111.
+> Kozlov A, Kardamakis A, Hellgren Kotaleski J, Grillner S (2014) Gating
+> of steering signals through phasic modulation of reticulospinal neurons
+> during locomotion. PNAS 111 (9):3591-3596, doi: 10.1073/pnas.1401459111.
 
 The code is available at ModelDB, accession number 151338:
 https://senselab.med.yale.edu/modeldb/ShowModel.asp?model=151338
