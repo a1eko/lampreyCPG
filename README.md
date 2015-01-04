@@ -20,32 +20,32 @@ along the spinal cord to generate waves of left-right alternating activity
 travelling from head to tail [4]. Supraspinal neural populations are added
 to study propagation of steering commands, from tectum to locomotor CPG.
 
-[1] Grillner S (2003) The motor infrastructure: from ion channels to
-    neuronal networks. Nat Rev Neurosci 4(7):573-586.
+1. Grillner S (2003) The motor infrastructure: from ion channels to
+   neuronal networks. Nat Rev Neurosci 4(7):573-586.
 
-[2] Huss M, Lansner A, Wallen P, El Manira A, Grillner S, Kotaleski JH.
+2.  Huss M, Lansner A, Wallen P, El Manira A, Grillner S, Kotaleski JH.
     Roles of ionic currents in lamprey CPG neurons: a modeling study.
     J Neurophysiol. 2007 Apr;97(4):2696-711. Epub 2007 Feb 7. ModelDB
     accession number 93319.
 
-[3] Hellgren J, Grillner S, Lansner A (1992) Computer simulation of the
+3.  Hellgren J, Grillner S, Lansner A (1992) Computer simulation of the
     segmental neural network generating locomotion in lamprey by using
     populations of network interneurons. Biol Cybern. 68(1):1-13.
 
-[4] Kozlov A, Huss M, Lansner A, Kotaleski JH, Grillner S (2009) Simple
+4.  Kozlov A, Huss M, Lansner A, Kotaleski JH, Grillner S (2009) Simple
     cellular and network control principles govern complex patterns of motor
     behavior. Proc Natl Acad Sci USA 106(47):20027-20032.
 
 
-  SYNOPSIS
+    SYNOPSIS
 	genesis  [GENESIS_FLAGS]  SCRIPT [OPTIONS]
 	pgenesis [PGENESIS_FLAGS] SCRIPT [OPTIONS]
 
-  GENESIS_FLAGS
-  PGENESIS_FLAGS
+    GENESIS_FLAGS
+    PGENESIS_FLAGS
 	See GENESIS and PGENESIS documentation for available values.
 
-  OPTIONS
+    OPTIONS
 	-t SIMTIME	simulation time, in seconds
 	-j INJECT	tectal stimulation, in nA
 	-p PROTO	cell prototype file
@@ -54,7 +54,7 @@ to study propagation of steering commands, from tectum to locomotor CPG.
 	-hsolve		use Hines solver
 	-parallel NODES	number of nodes for parallel execution
 
-  FILES
+    FILES
 	ouput		Empty directory for output data (must be created
 			before running any script).
 
@@ -76,8 +76,12 @@ to study propagation of steering commands, from tectum to locomotor CPG.
 	Lamprey.g 	Main script to simulate activity of the locomotor
 			CPG with supraspinal control.
 
-  EXAMPLES
+    EXAMPLES
 	genesis Cell.g
 	genesis Pop.g
 	genesis Syn.g
 	pgenesis -nox -nodes 768 -silent 3 Lamprey.g -hsolve -t 2.5 -j 0.55e-9 -parallel 768
+
+
+Alexander Kozlov <akozlov@nada.kth.se>
+Jan 2015, Stockholm
