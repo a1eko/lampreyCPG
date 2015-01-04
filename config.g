@@ -107,4 +107,3 @@ synpii = 0.01; synwii = 1.0
 synpim = 0.01; synwim = 0.5
 synpir = 1.0; synwir = 2.0
 synpmo = 1.0; synwmo = 0.5
-

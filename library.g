@@ -60,4 +60,3 @@ function make_cell(filename, path)
         deletemsg {chan} 0 -outgoing
     end
 end
-

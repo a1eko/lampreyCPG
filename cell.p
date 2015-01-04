@@ -1,5 +1,5 @@
 //genesis
-//
+// 
 // cell.p - template neuron prototype
 //
 // Reduction of the original model by Huss M, Lansner A, Wallen P,

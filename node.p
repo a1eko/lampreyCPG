@@ -1,5 +1,5 @@
 //genesis
-//
+// 
 // node.p - output node prototype
 
 *relative

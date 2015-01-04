@@ -310,4 +310,3 @@ function make_KCaNMDA
     addfield {chanpath} addmsg1
     setfield {chanpath} addmsg1 "../CaNMDA_pool . CONCEN Ca"
 end
-
