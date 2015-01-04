@@ -41,7 +41,6 @@ User manual
 -----------
 
 <pre><code>
-
 SYNOPSIS
 	genesis  [GENESIS_FLAGS]  SCRIPT [OPTIONS]
 	pgenesis [PGENESIS_FLAGS] SCRIPT [OPTIONS]
@@ -86,9 +85,8 @@ EXAMPLES
 	genesis Pop.g
 	genesis Syn.g
 	pgenesis -nox -nodes 768 -silent 3 Lamprey.g -hsolve -t 2.5 -j 0.55e-9 -parallel 768
-
 </code></pre>
 
 
-Alexander Kozlov <akozlov@nada.kth.se> 
+Alexander Kozlov <akozlov@nada.kth.se>  
 Jan 2015, Stockholm
