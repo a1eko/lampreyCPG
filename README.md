@@ -37,6 +37,9 @@ to study propagation of steering commands, from tectum to locomotor CPG.
     behavior. Proc Natl Acad Sci USA 106(47):20027-20032.
 
 
+User manual
+-----------
+
     SYNOPSIS
 	genesis  [GENESIS_FLAGS]  SCRIPT [OPTIONS]
 	pgenesis [PGENESIS_FLAGS] SCRIPT [OPTIONS]
@@ -84,4 +87,5 @@ to study propagation of steering commands, from tectum to locomotor CPG.
 
 
 Alexander Kozlov <akozlov@nada.kth.se>
+
 Jan 2015, Stockholm
