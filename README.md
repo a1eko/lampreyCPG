@@ -40,15 +40,17 @@ to study propagation of steering commands, from tectum to locomotor CPG.
 User manual
 -----------
 
-    SYNOPSIS
+<pre><code>
+
+SYNOPSIS
 	genesis  [GENESIS_FLAGS]  SCRIPT [OPTIONS]
 	pgenesis [PGENESIS_FLAGS] SCRIPT [OPTIONS]
 
-    GENESIS_FLAGS
-    PGENESIS_FLAGS
+GENESIS_FLAGS
+PGENESIS_FLAGS
 	See GENESIS and PGENESIS documentation for available values.
 
-    OPTIONS
+OPTIONS
 	-t SIMTIME	simulation time, in seconds
 	-j INJECT	tectal stimulation, in nA
 	-p PROTO	cell prototype file
@@ -57,7 +59,7 @@ User manual
 	-hsolve		use Hines solver
 	-parallel NODES	number of nodes for parallel execution
 
-    FILES
+FILES
 	ouput		Empty directory for output data (must be created
 			before running any script).
 
@@ -79,13 +81,14 @@ User manual
 	Lamprey.g 	Main script to simulate activity of the locomotor
 			CPG with supraspinal control.
 
-    EXAMPLES
+EXAMPLES
 	genesis Cell.g
 	genesis Pop.g
 	genesis Syn.g
 	pgenesis -nox -nodes 768 -silent 3 Lamprey.g -hsolve -t 2.5 -j 0.55e-9 -parallel 768
 
+</code></pre>
 
-Alexander Kozlov <akozlov@nada.kth.se>
 
+Alexander Kozlov <akozlov@nada.kth.se> 
 Jan 2015, Stockholm
